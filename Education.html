@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 12% ;
+    border-radius: 10px;
+    background-color:gray;
+    backdrop-filter:blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: white;
+    transform: scale(1.1);             
+}
+span{
+    color:rebeccapurple;
+}
+.navbar a{
+    font-size: 20px;
+    color:white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: black;
+    border-radius: 3px solid orangered;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: black;
+    box-shadow: 0 0 25px rgb(1, 150, 108),
+                0 0 50px rgb(2, 104, 76);
+    color: white;
+}
+ 
+       #container{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 350px;
+         background-color: rgba(127, 193, 255, 0.615);
+         border-radius: 10px;
+         border: solid black;
+        }
+        #container div{
+            width: 335px;
+            background:palevioletred;
+            margin: 60px;
+            border-radius: 20px;
+            border: black solid ;
+            text-align: center;
+
+        }
+        h1{
+            text-align: center;
+            margin-top: 70px;
+            margin-bottom: 9px;
+            background-color: cadetblue;
+            color: black;
+            border-radius: 10px;
+            border: solid black;
+        }
+        p{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Pavan</span></a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Portfolio </a>
+            <a href="About_us .html">About Us</a>
+            <a href="index.html">Projects</a>
+            <a href="Education.html">Education</a>
+            <a href="Internship.html">Internship</a>
+            <!-- <a href="G  Venkata Pavan Kalyan.pdf">Resume</a> -->
+            
+        </nav>
+        <a href="contactMe.html" class="contact">Contact Me</a>
+    </header>
+  
+    <h1>Education</h1>
+   <div id="container">
+
+       <div>B.Tech <p>B.Tech Civil Engineering in RSREC college under JNTUA with 7.18 CGPA </p></div>
+       <div>Intermediate <p>Intermediate in M.P.C at Viswasai Junior College with 6.73 CGPA</p></div>
+       <div>High School <p>High School at Ratnam E.M high school with 9.3 CGPA</p></div>
+   </div>
+</body>
+</html>

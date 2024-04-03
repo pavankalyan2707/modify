@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 12% ;
+    background-color:gray;
+    backdrop-filter:blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: white;
+    transform: scale(1.1);             
+}
+span{
+    color:rebeccapurple;
+}
+.navbar a{
+    font-size: 20px;
+    color:white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: black;
+    border-radius: 3px solid orangered;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: black;
+    box-shadow: 0 0 25px rgb(1, 150, 108),
+                0 0 50px rgb(2, 104, 76);
+    color: white;
+}
+    body{
+        background-color: paleturquoise;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    .section{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: 60%;
+        margin: 10rem auto 0 auto;
+    }
+    .section img{
+        height: 250px;
+
+    }
+    .section h1{
+        margin: 0;
+        color:greenyellow ;
+    }
+    .section p{
+        color: white;
+        
+    }
+    span{
+        color: white;
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Pavan</span></a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Portfolio </a>
+            <a href="About_us .html">About Us</a>
+            <a href="index.html">Projects</a>
+            <a href="Education.html">Education</a>
+            <a href="Internship.html">Internship</a>
+            <!-- <a href="G  Venkata Pavan Kalyan.pdf">Resume</a> -->
+            
+        </nav>
+        <a href="contactMe.html" class="contact">Contact Me</a>
+    </header>
+    <div class="section">
+       <div class="text">
+           <h1>Internship in Web Developnment at <span>SKILL FORGE</span> </h1>
+           <p>
+            
+           In the Web Developnment Internship we learn some concepts from the front end developnment like HTML, CSS, Java Script, SASS, Boot Strap etc 
+           and we done real time projects from those concepts. <br> <b> <i>We Desgin a Web Site of Portfolio</i>  </b> .
+            </div>
+           <img src="learnwithskillforge_logo.jpeg" alt="">
+           
+        </p>
+    </div>
+</body>
+</html>
